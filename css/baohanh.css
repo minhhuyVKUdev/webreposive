@@ -1,0 +1,85 @@
+table {
+	border-collapse: collapse;
+	margin: 50px;
+	width: 90%;
+	height: 100%;
+	font-size: 14px;
+}
+
+td a {
+	display: block;
+	margin-left: 5px;
+	padding: 10px 0;
+	transition-duration: .2s; 
+}
+
+td a:hover {
+	color: red;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+/* những tr chẵn sẽ có màu khác */
+tr:nth-of-type(even) {background-color: #e6e4e4;}
+
+.header-table marquee {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	background: #0C9;
+}
+
+.col1 {
+	text-align: center;
+	width: 3%;
+	height: 30px;
+}
+
+.col2 {
+	padding-left: 10px;
+	width: 52%;
+}
+
+.col3 {
+	padding-left: 10px;
+	width: 20%
+}
+
+.col4 {
+	padding-left: 20px;
+	width: 15%;
+}
+
+/* ------------------- Responsive ------------------- */
+@media (max-width: 1024px) {
+	.container, .main-content {
+	  width: 95%;
+	  padding: 0 10px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.banner img {
+	  width: 100%;
+	  height: auto;
+	}
+	nav, .topnav, .main-content, footer {
+	  flex-direction: column !important;
+	  text-align: center;
+	}
+	.product-item {
+	  width: 48% !important;
+	  margin: 1%;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.product-item {
+	  width: 100% !important;
+	}
+	header, .topnav, footer {
+	  font-size: 14px;
+	}
+  }
