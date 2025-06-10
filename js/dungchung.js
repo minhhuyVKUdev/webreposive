@@ -1,6 +1,6 @@
 var adminInfo = [{
     "username": "admin",
-    "pass": "adadad"
+    "pass": "congngheweb"
 }];
 
 function getListAdmin() {
@@ -606,7 +606,7 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">LDD Phone Store</a> - All rights reserved © 2025 - Designed by
+        <p><a href="index.html"></a> - All rights reserved © 2025 - Designed by
             <span style="color: #eee; font-weight: bold">Công Nghệ WEB(4)</span></p>
     </div>`);
 }
